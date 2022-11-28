@@ -1,0 +1,16 @@
+@import '../../../../../../../node_modules/@taiga-ui/core/styles/taiga-ui-local';
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dropdown {
+  padding-block: 1rem;
+  padding-inline: 2rem;
+}
+
+.dropdown li {
+  cursor: pointer;
+}

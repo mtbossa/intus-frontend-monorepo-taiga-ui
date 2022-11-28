@@ -1,0 +1,10 @@
+<div>
+  <h1>Raspberries</h1>
+  <div class="buttons-header tui-space_vertical-8">
+    <button tuiButton icon="tuiIconPlus" size="m" (click)="goTo('criar')">Criar</button>
+  </div>
+  <app-app-searchable-table
+    [columns]="columns"
+    [listableService]="raspberriesService"
+  ></app-app-searchable-table>
+</div>

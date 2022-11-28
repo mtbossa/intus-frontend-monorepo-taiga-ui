@@ -1,0 +1,13 @@
+<aside>
+  <nav>
+    <ul>
+      <ng-container *ngFor="let item of menu">
+        <li class="tui-space_bottom-5">
+          <a tuiLink [icon]="item.icon" iconAlign="left" [routerLink]="item.path">{{
+            item.title
+          }}</a>
+        </li>
+      </ng-container>
+    </ul>
+  </nav>
+</aside>

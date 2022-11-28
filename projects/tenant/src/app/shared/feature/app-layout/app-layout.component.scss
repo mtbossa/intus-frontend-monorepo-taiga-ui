@@ -1,0 +1,25 @@
+@import '../../../../styles/variables';
+@import '../../../../../../../node_modules/@taiga-ui/core/styles/taiga-ui-local';
+
+.page {
+  display: grid;
+  grid-template: 5rem calc(100vh - 5rem) / auto 4fr;
+}
+
+app-header {
+  grid-column: 1 / -1;
+
+  display: flex;
+
+  @include shadow(4);
+}
+
+app-sidebar {
+  height: 100%;
+  padding: $default-padding;
+}
+
+main {
+  padding: $default-padding $default-padding $default-padding 0;
+  overflow: auto;
+}

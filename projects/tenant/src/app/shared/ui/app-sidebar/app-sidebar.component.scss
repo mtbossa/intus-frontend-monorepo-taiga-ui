@@ -1,0 +1,17 @@
+@import '../../../../styles/variables';
+@import '../../../../../../../node_modules/@taiga-ui/core/styles/taiga-ui-local';
+
+aside {
+  height: 100%;
+}
+
+nav {
+  padding: $default-padding;
+  height: 100%;
+  @include shadow(4);
+}
+
+:host {
+  height: 100%;
+}
+

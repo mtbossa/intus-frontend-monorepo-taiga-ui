@@ -1972,6 +1972,11 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
 
+"@types/lodash@^4.14.190":
+  version "4.14.190"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.190.tgz#d8e99647af141c63902d0ca53cf2b34d2df33545"
+  integrity sha512-5iJ3FBJBvQHQ8sFhEhJfjUP+G+LalhavTkYyrAYqz5MEJG+erSv0k9KJLb6q7++17Lafk1scaTIFXcMJlwK8Mw==
+
 "@types/mime@*":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
@@ -4784,6 +4789,13 @@ ng-morph@^2.1.0:
     multimatch "5.0.0"
     ts-morph "10.0.2"
 
+ngx-cookie@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/ngx-cookie/-/ngx-cookie-6.0.1.tgz#feb83200bc30494cbadd18571d9fabf7ca70361f"
+  integrity sha512-TfQPROUaWBOOtPrI6bWqYQelkc7PKwZich5a3bNNgxlH6+v9VgH4D3GoNzTc1Cs2s8dfIw4nGuOHkLiH+FZqiw==
+  dependencies:
+    tslib "^2.0.0"
+
 nice-napi@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/nice-napi/-/nice-napi-1.0.2.tgz#dc0ab5a1eac20ce548802fc5686eaa6bc654927b"
@@ -5471,6 +5483,11 @@ queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
+
+radash@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/radash/-/radash-7.1.0.tgz#b6da541c678368ab3a1f3702057342e944599e92"
+  integrity sha512-NOWTaF5YMY3mCgrNq9Fw9fK8yvJv92uqRb2StcVq5W8kcJ6949EbV2vk6nLJKAocYs29rzJafZZP1lFkEkoVGw==
 
 randombytes@^2.1.0:
   version "2.1.0"
