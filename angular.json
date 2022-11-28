@@ -25,9 +25,19 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/admin/src/favicon.ico",
-              "projects/admin/src/assets"
+              "projects/admin/src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/@taiga-ui/icons/src",
+                "output": "assets/taiga-ui/icons"
+              }
             ],
-            "styles": ["projects/admin/src/styles.scss"],
+            "styles": [
+              "node_modules/@taiga-ui/core/styles/taiga-ui-theme.less",
+              "node_modules/@taiga-ui/core/styles/taiga-ui-fonts.less",
+              "node_modules/@taiga-ui/styles/taiga-ui-global.less",
+              "projects/admin/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -140,9 +150,19 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/tenant/src/favicon.ico",
-              "projects/tenant/src/assets"
+              "projects/tenant/src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/@taiga-ui/icons/src",
+                "output": "assets/taiga-ui/icons"
+              }
             ],
-            "styles": ["projects/tenant/src/styles.scss"],
+            "styles": [
+              "node_modules/@taiga-ui/core/styles/taiga-ui-theme.less",
+              "node_modules/@taiga-ui/core/styles/taiga-ui-fonts.less",
+              "node_modules/@taiga-ui/styles/taiga-ui-global.less",
+              "projects/tenant/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
