@@ -18,6 +18,7 @@ import { registerLocaleData } from '@angular/common';
 import { CookieModule } from 'ngx-cookie';
 import { AppLayoutModule } from './shared/feature/app-layout/app-layout.module';
 import { HttpClientModule } from '@angular/common/http';
+import { appHttpInterceptorProviders } from './shared/data-access/interceptors';
 
 registerLocaleData(localePt);
 
@@ -41,6 +42,7 @@ registerLocaleData(localePt);
       useValue: of(TUI_PORTUGUESE_LANGUAGE),
     },
     { provide: LOCALE_ID, useValue: 'pt-BR' },
+    appHttpInterceptorProviders,
   ],
   bootstrap: [AppComponent],
 })
