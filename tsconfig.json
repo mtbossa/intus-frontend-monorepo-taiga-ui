@@ -22,7 +22,11 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@intus/admin/app/*": ["projects/admin/src/app/*"],
+      "@intus/tenant/app/*": ["projects/tenant/src/app/*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

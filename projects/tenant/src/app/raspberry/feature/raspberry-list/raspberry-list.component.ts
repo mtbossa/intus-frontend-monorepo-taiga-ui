@@ -6,10 +6,10 @@ import {
   Inject,
 } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
+import { AppSearchableTableComponent, Column } from "@intus/tenant/app/shared/feature/app-searchable-table/app-searchable-table/app-searchable-table.component";
 import { TuiTableModule, TuiTablePaginationModule } from "@taiga-ui/addon-table";
 import { TuiLetModule } from "@taiga-ui/cdk";
 import { TuiButtonModule, TuiLoaderModule } from "@taiga-ui/core";
-import { AppSearchableTableComponent, Column } from "../../../shared/feature/app-searchable-table/app-searchable-table/app-searchable-table.component";
 
 import { RaspberriesService } from "../../data-access/raspberry.service";
 
