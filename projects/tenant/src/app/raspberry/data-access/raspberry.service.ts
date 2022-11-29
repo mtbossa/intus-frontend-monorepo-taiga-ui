@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { take } from 'rxjs';
-import { environment } from 'projects/tenant/src/environments/environment';
+import { environment } from '@intus/tenant/environments/environment';
 
 import { ValidRaspberryForm } from '../feature/raspberry-form/raspberry-form.component';
 import { PaginatedResponse } from '../../shared/data-access/interfaces/PaginatedResponse.interface';

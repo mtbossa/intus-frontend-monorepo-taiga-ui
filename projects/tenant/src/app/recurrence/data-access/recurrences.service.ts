@@ -12,10 +12,10 @@ import {
 } from '@taiga-ui/cdk';
 import { startCase } from 'lodash';
 import { BehaviorSubject, Observable, take } from 'rxjs';
-import { environment } from 'projects/tenant/src/environments/environment';
 
 import { ValidRecurrenceForm } from '../feature/recurrence-form/recurrence-form.component';
 import { PaginatedResponse } from '../../shared/data-access/interfaces/PaginatedResponse.interface';
+import { environment } from '@intus/tenant/environments/environment';
 
 export interface Recurrence {
   id: number;

@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, take } from 'rxjs';
-import { environment } from 'projects/tenant/src/environments/environment';
+import { environment } from '@intus/tenant/environments/environment';
 
 import { ValidInvitationAcceptForm } from '../feature/invitation-accept-form/invitation-accept-form.component';
 import { ValidInvitationForm } from '../feature/invitation-form/invitation-form.component';

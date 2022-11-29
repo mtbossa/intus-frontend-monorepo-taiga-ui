@@ -25,7 +25,9 @@
     ],
     "paths": {
       "@intus/admin/app/*": ["projects/admin/src/app/*"],
-      "@intus/tenant/app/*": ["projects/tenant/src/app/*"]
+      "@intus/admin/environments/*": ["projects/admin/src/environments/*"],
+      "@intus/tenant/app/*": ["projects/tenant/src/app/*"],
+      "@intus/tenant/environments/*": ["projects/tenant/src/environments/*"]
     }
   },
   "angularCompilerOptions": {

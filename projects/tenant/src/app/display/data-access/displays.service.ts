@@ -1,6 +1,6 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { environment } from 'projects/tenant/src/environments/environment';
+import { environment } from '@intus/tenant/environments/environment';
 import { BehaviorSubject, take } from 'rxjs';
 import { PaginatedResponse } from '../../shared/data-access/interfaces/PaginatedResponse.interface';
 
